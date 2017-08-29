@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yandex Node.js school test</title>
+	<script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="libs/jquery.maskedinput.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="libs/animate.css">
+</head>
+<body>
+	<form id="myForm" action="success.json">
+		<label for="fio">ФИО</label>
+		<input required type="text" name="fio" id="fio" placeholder="Ученик Школы Nodejs" pattern="^([А-Яа-яЁё\w]+\s+){2}([А-Яа-яЁё\w]+)">
+		<label for="email">Email</label>
+		<input required type="email" name="email" id="email" placeholder="example@yandex.ru" pattern="^[a-zA-Z0-9_.+-]+@((yandex)\.(ru|ua|by|kz|com)|(ya.ru))$">
+		<label for="phone">Телефон</label>
+		<input required type="tel" name="phone" id="phone">
+		<input type="submit" id="submitButton" value="Отправить">
+	</form>
+	<div id="resultContainer">
+		
+	</div><!-- /#resultContainer -->
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

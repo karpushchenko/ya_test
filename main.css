@@ -1,0 +1,144 @@
+body {
+	color: #fff;
+	font-family: sans-serif;
+	
+	background: linear-gradient(1deg, #e37222, #66b9bf);
+background-size: 400% 400%;
+
+-webkit-animation: hypnose 30s ease infinite;
+-moz-animation: hypnose 30s ease infinite;
+animation: hypnose 30s ease infinite;
+
+@-webkit-keyframes hypnose {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes hypnose {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes hypnose { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+}
+form {
+	background-color: #07889b;
+	width: 400px;
+	text-align: center;
+		margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+		-webkit-border-radius: 10px;
+	        border-radius: 10px;
+}
+
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	border: none;
+}
+
+label {
+	display: inline-block;
+	margin: 10px;
+}
+
+p {
+	padding: 15px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	text-align: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.success {
+	-webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+
+}
+
+
+
+input[type="submit"] {
+	cursor: pointer;
+	margin-top: 10px;
+	background-color: #e37222;
+	color: #FFF;
+}
+
+input[disabled]{
+	background-color: #eeaa7b;
+	cursor: not-allowed;
+}
+
+.error {
+	border: 1px solid red;
+}
+
